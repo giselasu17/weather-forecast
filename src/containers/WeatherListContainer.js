@@ -22,6 +22,9 @@ class WeatherListContainer extends Component {
     }
 
     render () {
+         if (this.props.weather.length == 0) {
+            return <div className = "alert alert-info">Enter your favorite city to get the weather forecast</div>
+        }
         return (
             <div className = "table-responsive">
                 <table className = "table table-hover"> 

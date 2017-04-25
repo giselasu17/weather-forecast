@@ -25,3 +25,7 @@ thead {
   color: white;
   border-radius: 5px;
 }
+.alert {
+  width: 40%; 
+  text-align: center;
+}
